@@ -1,0 +1,7 @@
+asyncpg==0.24.0
+blacksheep==1.0.9
+essentials-configuration==0.0.2
+Jinja2==3.0.1
+tortoise-orm==0.17.6
+rodi==1.1.1
+uvicorn==0.15.0

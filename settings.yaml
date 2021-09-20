@@ -1,0 +1,18 @@
+# Default application settings, to run the application for local development.
+#
+# These settings are read in `app.configuration.py` and can be overridden by environmental variables,
+# thanks to `essentials-configuration` package.
+# Refer to https://github.com/Neoteroi/essentials-configuration for more information.
+#
+app_name: Oceanic
+github_url: https://github.com/rozumalex/oceanic
+
+storage_connection_string: "postgres://alex:password@localhost:5432/oceanic"
+
+debug: true # if true, Jinja2 templates auto reloading is enabled
+
+show_error_details: true
+
+# site information
+site:
+    copyright: Oceanic 2021 # change with your own copyright notice
